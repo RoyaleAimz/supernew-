@@ -1,0 +1,10 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Neon glow for badges */
+.neon-glow {
+  text-shadow: 0 0 4px rgba(59, 140, 255, 0.8),
+               0 0 8px rgba(59, 140, 255, 0.6);
+}
